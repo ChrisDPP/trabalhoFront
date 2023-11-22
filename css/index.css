@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Berkshire Swash';
+    src: url('BerkshireSwash-Regular.ttf') format('truetype');
+  }
+
+
+body{
+    height:97vh;
+   background-color: aliceblue;
+}
+
+.header{
+    position: relative;
+    height: 15vh;
+    background-color: rgba(55, 55, 22, 0.948);
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 2.5vw;
+    font-size-adjust: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.main{
+    background-color: aliceblue;
+    top:2%;
+    position: relative;
+}
+
+.itens{
+    position: relative;
+    width: 15%;
+    height:80vh;
+    left: 10%;
+    top: 20px;
+}
+
+.item{
+    position: relative;
+    display: flex; /* Novo */
+    justify-content: center; /* Novo */
+    align-items: center; /* Novo */
+    padding-bottom: 2px;
+    width: 100%;
+    height: 25vh;
+    }
+
+
+.item:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+
+
+.item img{
+    width: 60%; /* Novo */
+    height: 60%; /* Novo */
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.legenda { 
+    font-style: cursive;
+    font-size: 1.5vw;
+    font-size-adjust: auto;
+    font-family: 'Berkshire Swash', cursive;
+    position: absolute;
+    color: #070d2d; /* Cor do texto da legenda */
+    display: none; /* Inicialmente, a legenda está oculta */
+}
+
+#legenda1 { /* Legenda do corpo celular */
+    width: 350%;
+    left: 120%;
+    top: 30%;
+}
+
+#legenda2 { /* Legenda do corpo celular */
+    
+    width: 350%;
+    left: 120%;
+    top: 30%;
+}
+
+#legenda3 { /* Legenda do corpo celular */
+    
+    width: 350%;
+    left: 120%;
+    top: 30%;
+}
